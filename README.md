@@ -32,6 +32,9 @@ networks:
 
 ### Start Servers
 
+1. Mockingbird will running on ```http://localhost:10000/*```
+1. Mockingbird GUI admin will running on ```http://localhost:3000/admin```
+
 ```sh
 $ docker-compose up -d
 # or
