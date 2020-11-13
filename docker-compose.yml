@@ -10,7 +10,7 @@ services:
     networks:
       - mockingbird-internal
   mockingbird-server:
-    image: 'andrewchen20/mockingbird:beta-v0.0.3'
+    image: 'andrewchen20/mockingbird:beta-v0.0.6'
     ports:
       - '4000:4000'
       - '3000:3000'
